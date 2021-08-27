@@ -349,6 +349,32 @@ body {
   font-size: 20px;
   cursor: pointer;
 }
+.footer-language-section > .dropdown-section {
+  width: fit-content;
+  border: 1px solid #757575;
+  color: #757575;
+  margin-top:40px;
+  margin-bottom: 20px;
+}
+
+.footer-language-section > .dropdown-section > .language-dropdown {
+  color: #757575;
+}
+.dropdown-section {
+  border: 1px solid white;
+  padding: 0.8rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.language-dropdown {
+  background: transparent;
+  border: none;
+  color: white;
+}
+
+.language-dropdown:focus {
+  outline: none;
+}
 
 @media (min-width: 768px) { 
   .hero-bg-image-container {
