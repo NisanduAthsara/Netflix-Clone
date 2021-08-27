@@ -34,12 +34,6 @@ body {
   width: 100%;
   height: 100%;
 }
-.box(
-  background: red;
-  width:100px;
-  height: 100px;
-  position: relative;
-)
 
 .language__drop__down {
   background: transparent;
