@@ -1,4 +1,4 @@
-let accordian = document.getElementsByClassName("FAQ__title");
+let accordian = document.getElementsByClassName("FAQ-title");
 
 for (let i = 0; i < accordian.length; i++) {
   accordian[i].addEventListener("click", function () {
