@@ -88,11 +88,11 @@ body {
 
 .hero__card {
   position: absolute;
-  top: 20%;
   text-align: center;
-  display: flex;
-  flex-direction: column;
+  top: 30%;
+  left: 30%;
   gap: 10px;
+  transform: translate(-20%, -20%);
 }
 
 .hero__title {
@@ -274,7 +274,7 @@ body {
 }
 .FAQ__title {
   width: 100%;
-  font-size: 28px;
+  font-size: 22px;
   display: flex;
   justify-content: space-between;
   padding: 15px 20px;
@@ -290,7 +290,7 @@ body {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.5s ease-in-out;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .FAQ__visible > p {
@@ -303,7 +303,7 @@ body {
 .FAQ__heading {
   font-size: 40px;
   text-align: center;
-  font-weight: 600;
+  font-weight: 600;;
   margin: 1rem 3rem;
 }
 
@@ -328,7 +328,6 @@ body {
 .footer{
   border-top: 8px solid #333;
   padding:60px;
-  margin-left:50px;
   justify-content: flex-start;
   text-align: left;
   align-items: flex-start;
@@ -368,7 +367,7 @@ body {
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) { 
   .hero__bg__image__container {
     height: 100vh;
   }
@@ -423,9 +422,13 @@ body {
   }
   .FAQ__heading {
     font-size: 47px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 1px;
   }
+  .FAQ__visible {
+    font-size: 24px;
+  }
+
   .FAQ__list {
     padding: 1rem 5rem;
   }
@@ -544,3 +547,24 @@ body {
   }
 }
 
+@media (max-width: 470px){
+  .hero__title{
+    font-size:25px;
+  }
+  .hero__subtitle{
+    font-size:15px;
+  }
+  .hero__description{
+    font-size:15px;
+  }
+  .form__container {
+    background-color: white;
+    width: 90%;
+    height: 40px;
+    position: relative;
+  }
+  .primary__button {
+    padding: 0.5rem 0.9rem;
+    font-size: 10px;
+  }
+}
